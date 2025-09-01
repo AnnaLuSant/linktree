@@ -1,0 +1,28 @@
+/*css Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Variaveis*/
+:root {
+    --cinzaClaro: #0013bb;
+    --CinzaMedio: #000294;
+    --CinzaEscuro: #04003a;
+}
+
+/*Layout*/
+.container, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Vend Sans", sans-serif;
+}
